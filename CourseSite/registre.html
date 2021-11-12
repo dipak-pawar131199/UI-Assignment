@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> MCA Courses In Fergusson College Pune </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+		#content{
+			margin: 0;
+			padding: 10px;
+			background-color: #eee;
+		}
+
+		#reg{
+			width: 500px;
+			margin: auto;
+			padding: 80px 0px 0px 20px;
+			height: 600px;
+			background-color: #00ced1;
+			border: 2px solid black;
+			box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+			font-size:25px ;
+         text-align: center;
+		}
+		#reg input{
+			padding: 10px 0 0 10px;
+			height: 40px;
+			width: 300px;
+         border-radius: 10px;
+         box-shadow: 2px black;
+         font-size: 20px;
+		}
+	#reg button{
+		font-size: 25px;
+		padding: 5px 0 0 5px;
+		width: 150px;
+		height: 60px;
+		text-align: center;
+		border-radius: 10px;
+		background-color:;
+	}	
+	button:hover{
+		background-color: green;
+	}
+	</style>
+		
+</head>
+<body style="background-color: black;">
+	<div id=icon style="background-color: ;"><img  src="logo.png"/></div>
+   <div class="header">
+   	<h1> Deccan Education Society's
+
+Fergusson College (Autonomous), Pune</h1>
+<p>Affiliated to Savitribai Phule Pune University, UGC - College with Potential for Excellence (CPE) UGC- College of Excellence (CE)
+
+UGC Special Heritage Status, DBT - STAR Status College, DST - FIST Supported Science Departments
+
+NAAC accredited “A” Grade (3.62 CGPA on 4 point scale)
+
+NIRF Ranking : 42nd (2020) 35th (2017) 19th (2018) 27th (2019)
+
+AISHE Code : C - 41431</p>
+   <h1>MCA Courses<h1>
+    </div>
+ 	   <div class="nav">
+	    
+
+	   	 <ul>
+	         <li class="active"><a href="index.html">Home</a></li>
+	   	 	<li><a href="courses.html">Courses</a></li>
+	   	 	<li><a href="staff.html">Faculty</a></li>
+	   	 	<li><a href="aboutus.html">About Us</a></li>
+	   	 	<li><a href="Contact.html">Contact Us</a></li>
+
+	   	 </ul>
+	   </div>
+   <div class="Slider">
+   	Slider
+   </div>
+
+     <div id=content>
+     	<h1 align="center"> Registration</h1>
+     	   <div id=reg>
+
+     	   <form action="courses.html" name=myform > 
+     	   	 First Name * 
+     	   	 <br>
+     	   	 <input type="text" name="fname" required>
+     	   	 <br><br>
+     	   	 Last Name *
+     	   	 <br>
+     	   	 <input type="text" name="lname" required>
+     	   	 <br><br>
+     	   	 Email Address *
+     	   	 <br>
+     	   	 <input type="text" name="email" required> 
+     	   	 <br><br>
+     	   	 Phone Number *
+     	   	 <br>
+     	   	 <input type="text" name="pno"  required>
+             <br><br>
+             <button  onClick="myFunction()" required>Register</button>
+     	   	<h6>* means Field are required! </h6>
+     	   </form>
+     <script type="text/javascript">
+		function myFunction()
+		{
+			let x=document.forms['myform']['fname'].value;
+			let y=document.forms['myform']['lname'].value;
+			let z=document.forms['myform']['email'].value;
+			let w=document.forms['myform']['pno'].value;
+			if(x=="" ) 
+			{
+
+				alert("Name is required!");
+			}
+			else if(y=="")
+			{
+                alert("Last Name is required!");
+			}
+			else if(z=="")
+			{
+                alert("Email is required!");
+			}
+			else if(w=="")
+			{
+                alert("Phone Number is required!");
+			}
+            else {
+            	alert("registration successful!");
+            }
+
+
+		}
+	 </script>
+     	   </div>
+
+     </div>	
+	
+	    
+           <div class=container>
+           <br><br>
+	        <div class="footer">
+		   	 <ul style=" margin: auto; ">
+		         <li ><a href="index.html">Home</a></li>
+		   	 	<li><a href="courses.html">Courses</a></li>
+		   	 	<li><a href="staff.html">Faculty</a></li>
+		   	 	<li><a href="aboutus.html">About Us</a></li>
+		   	 	<li><a href="Contact.html">Contact Us</a></li>
+		   	 </ul>
+           </div>
+           <br><br>
+		     <div class="map" style="width:400px;height: 350px;margin: auto; border: white;">
+		    	              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.256097716251!2d73.83942901484266!3d18.517325687410917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c07f4daa097f%3A0xce339b60765d5009!2sFergusson%20College%20Rd%2C%20Pune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1629371513749!5m2!1sen!2sin" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+		    	              	        </iframe>
+			  
+		     </div>
+		     <div style="text-align: right ;background: lightslategray;height: 40px; font-size: 20px; width: 100%;height: 30px;">copyright&copy  2021</div>
+		     </div>
+		</div>   
+  </div>
+</body>
+</html>

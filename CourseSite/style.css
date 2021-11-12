@@ -1,0 +1,267 @@
+body{
+	/*background-color: #D3D3D3;
+	*/
+	width: 1500;
+    background-color: #ffffff; 
+	font-family: arial,helvetica;
+	border: black;
+    margin: 0px;
+	padding: 0px;
+
+}
+#icon{
+	margin: 25px 2px 0 35px;
+	float: left;
+	background-color: ;
+	
+}
+.header{
+	background-color: #000000;
+    width: 87%; 
+	color: white;
+	height: 164px;
+	padding: 50px 0 0 10px;
+	text-align: center;
+	float: right;
+
+}
+.header h1{
+	margin: 0px 0 0 20px;
+	text-align: center;
+
+
+
+	
+}
+.nav{
+ text-align: right; 
+}
+
+.nav ul{
+	border: 2px solid #156ee2;
+	margin: 0;
+	padding: 0;
+	height: 50px;
+	line-height: 55px;
+	background-color:black;
+	list-style: none;
+	font-family: arial,helvetica,sans-serif;
+	font-size: 30px;
+    clear: both;
+
+}
+
+.nav ul li{
+	float: left;
+	display: inline;
+	color: white;
+	border-right:1px solid #156ee2 ;
+
+
+}
+.nav ul li a{
+	display: block;
+	text-decoration: none;
+	padding: 0 28px;
+	color: #fff;
+	
+
+}
+.nav ul li a:hover{
+	background-color: #156ee2;
+}
+.active a{
+	background-color: #156ee2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ani{
+
+    overflow-x: scroll;
+    background-color: #eee;
+    clear: both;
+}
+
+ .ani1{
+ 	width: 150px;
+     height: 75px;
+     text-align: center;
+     margin: auto;
+     padding: 5px  0px 0 5px;
+     font-size: 20px;
+      background-color: blue;
+      
+ 	box-shadow: 0 0 15px rgba(0, 0, 0,1);
+    animation-name: sample;
+    animation-timing-function: ease-in;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes sample{
+	 from{ border-radius: 0%;background-color: blue;color: white; }
+	 to{ border-radius: 55%;background-color: #eee;color: black; }
+}
+.content{
+    
+    
+   margin: auto;
+   padding: 30px 0 0 250px;
+ 
+   display: grid;
+   grid-template-columns: 400px 400px 400px ;
+   grid-template-rows: 350px 350px 350px;
+   grid-gap: 50px;
+   
+   height: 20em;
+
+}
+.teacher1{
+	background-color:ghostwhite;
+	 padding : 10px 0 0 10px;
+	 text-align: center;
+	 box-shadow: 0 0 15px rgba(0, 0, 0,1);
+}
+.teacher1 img{
+           
+     		vertical-align: middle;
+			height: 200px;
+			width: 200px;
+			border-radius: 55% ;
+            border: 1px solid black;
+           background: red;
+        
+
+	
+}
+.teacher1 p{
+	
+	font-size: 20px;
+	color: blue;
+}
+.teacher2{
+	background-color: ;
+	box-shadow: 0 0 15px rgba(0, 0, 0,1);
+	text-align: center;
+	 padding : 10px 0 0 10px;
+}
+.teacher2 img{
+           
+     		vertical-align: middle;
+			height: 200px;
+			width: 200px;
+			border-radius: 55% ;
+            border: 1px solid black;
+           background: red;
+        
+
+	
+}
+.teacher2 p{
+	
+	font-size: 20px;
+	color: blue;
+}
+.sidebar{
+	/*text-decoration: none;
+	background-color: cyan;
+    width: 25%;
+    height: 640px;
+    float:right;
+    color: black;
+*/
+}
+
+.sidebar #sidemenu ul li a{
+	text-decoration: none;
+	padding: 10px;
+	margin: 20px;
+
+	color: black;
+	align-items: center;
+
+}
+
+.container{
+	  margin: 0;
+	  padding: 0;
+	  border: 2px solid #156ee2;
+      background-color: black;
+	  clear: both;
+      font-size: 20px;  
+}
+
+.container footer{
+	
+  
+     text-decoration: none;
+   	 text-align: left;
+    margin: auto;
+    padding: 10px 0 0 20px;
+   
+
+}
+.footer ul{
+	background-color: black;
+
+	 width: 800px;
+	 height: 30px;
+	 margin: auto;
+	clear: both;
+    color: white;
+    text-decoration: none;
+	text-align: left;
+    font-size: 30px;
+    
+  
+     
+}
+.footer li{
+    display: inline;
+  	
+}
+.footer li a{
+	text-decoration:none;
+	color: white;
+    margin: auto;
+    border: 3px solid black;
+    padding: 0 15px;
+
+}
+
+.footer  h3{
+	
+	border: 2px solid black;
+	width 50px;
+
+
+}
+.container map
+{
+	width: 800px;
+	height: 500px;
+    margin: auto;
+    background-color: white;
+}
+.container map iframe
+{
+	float: right;
+
+}
+
+.container map iframe{
+	
+
+}
